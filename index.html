@@ -1,0 +1,2314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Spartan:wght@100..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- style import -->
+    <link rel="stylesheet" href="style.css">
+    <!-- boxIcons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- flation -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <!-- swiper js  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <!-- header part -->
+    <header class="header">
+        <div class="header__top">
+            <div class="header__container container">
+                <div class="header__contact">
+                    <span>(+01)-2345 - 6789</span>
+
+                    <span>Our location</span>
+                </div>
+                <p class="header__alert-news">
+                    super Value deals - Save more with coupons
+                </p>
+
+                <a href="login-register.html" class="header__top-action">
+                    Log In / Sign Up
+                </a>
+            </div>
+        </div>
+
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="images/logo.png" alt="" class="nav__logo--img">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list" id="navbar">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link">Shop</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="accounts.html" class="nav__link">My Account</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="compare.html" class="nav__link">Compare</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="login-register.html" class="nav__link">Login</a>
+                    </li>
+                </ul>
+
+                <div class="header__search">
+                    <i class='bx bx-menu' id="menu-icon"></i>
+                    <input type="text" placeholder="Search for items..." class="form__input" id="search-input"  style="position: absolute;" />
+                      <i class='bx bx-search-alt-2 search-icon' id="search-icon"></i>
+
+                    <!-- <button class="search__btn">
+                        <img src="images/search-icon.png" alt="Searchpng">
+                      
+                    </button> -->
+                </div>
+            </div>
+
+            <div class="header__user-actions">
+                <a href="wishlist.html" class="header__action-btn">
+                    <!-- <img src="images/heart.png" alt="heart svg"> -->
+                    <i class='bx bx-heart'></i>
+                    <span class="count">3</span>
+                </a>
+
+                <a href="wishlist.html" class="header__action-btn">
+                    <!-- <img src="images/cart.png" alt="cart svg"> -->
+                    <i class='bx bx-credit-card-alt'></i>
+                    <span class="count">3</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main"></main>
+    <!-- home section part -->
+    <section class="home section--lg">
+
+        <div class="home__container container grid">
+            <div class="home__content">
+                <span class="home__subtitle">
+                    Hot promotions
+                </span>
+                <h1 class="home__title">
+                    Fashion Trending <span>Great Collection</span>
+                </h1>
+                <p class="home__description">
+                    Save more with coupons & up to 20% off
+                </p>
+                <a href="shop.html" class="btn">
+                    Shop Now
+                </a>
+            </div>
+            <img src="images/home-img.png" alt="home images" class="home__img">
+
+        </div>
+
+    </section>
+
+    <!-- categories part -->
+
+    <section class="categories container section">
+        <h3 class="section__title">
+            <span>Popular</span> categories
+        </h3>
+        <div class="categories__container swiper">
+
+            <div class="angle">
+                <i class="fi fi-rs-angle-small-right"></i>
+                <i class="fi fi-rs-angle-small-left"></i>
+                <!-- <i class="fi fi-rs-angle-small-right"></i> -->
+            </div>
+            <div class="swiper-wrapper">
+
+                <a href="shop.html" class="category__item swiper-slide">
+                    <img src="images/s1.png" alt="" class="category__img">
+                    <h3 class="category__title">T-shirt</h3>
+                </a>
+
+                <a href="shop.html" class="category__item swiper-slide">
+                    <img src="images/s2.png" alt="" class="category__img">
+                    <h3 class="category__title">Bags</h3>
+                </a>
+
+                <a href="shop.html" class="category__item swiper-slide">
+                    <img src="images/s3.png" alt="" class="category__img">
+                    <h3 class="category__title">Sandal</h3>
+                </a>
+
+                <a href="shop.html" class="category__item swiper-slide">
+                    <img src="images/s4.png" alt="" class="category__img">
+                    <h3 class="category__title">Scarf Cap</h3>
+                </a>
+
+                <a href="shop.html" class="category__item swiper-slide">
+                    <img src="images/s5.png" alt="" class="category__img">
+                    <h3 class="category__title">Shoes</h3>
+                </a>
+
+                <a href="shop.html" class="category__item swiper-slide">
+                    <img src="images/s6.png" alt="" class="category__img">
+                    <h3 class="category__title">Pillowcase</h3>
+                </a>
+
+                <a href="shop.html" class="category__item swiper-slide">
+                    <img src="images/s7.png" alt="" class="category__img">
+                    <h3 class="category__title">Jumpsuit</h3>
+                </a>
+
+                <a href="shop.html" class="category__item swiper-slide">
+                    <img src="images/s8.png" alt="" class="category__img">
+                    <h3 class="category__title">Hats</h3>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- products -->
+    <section class="products section container">
+        <div class="tab__btns">
+            <span class="tab__btn active-tab" data-target="#featured">Featured</span>
+            <span class="tab__btn" data-target="#popular"> Popular</span>
+            <span class="tab__btn" data-target="#new-added">New added</span>
+        </div>
+
+
+        <div class="tab__items">
+            <div class="tab__item active-tab" content id="featured">
+                <div class="products__container grid">
+                    <!-- first -->
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="images/s-1.png" alt="" class="product__img default">
+
+                                <img src="images/s1.png" alt="" class="product__img hover">
+                            </a>
+                            <div class="product__action">
+                                <a href="" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+
+                            </div>
+
+                            <div class="product__badge light-pink">Hot</div>
+                        </div>
+
+                        <div class="product__content">
+                            <span class="product__category">
+                                Clothing
+                            </span>
+                            <a href="details.html">
+                                <h3 class="product__title">
+                                    Colorful Pattern Shirts
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$238.85</span>
+                                <span class="old__price">$245.8</span>
+                            </div>
+                            <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+<!-- secound item -->
+
+        <div class="product__item">
+    <div class="product__banner">
+        <a href="details.html" class="product__images">
+            <img src="images/p1.1.png" alt="" class="product__img default">
+
+            <img src="images/p1.png" alt="" class="product__img hover">
+        </a>
+        <div class="product__action">
+            <a href="" class="action__btn" aria-label="Quick View">
+                <i class="fi fi-rs-eye"></i>
+            </a>
+
+            <a href="" class="action__btn" aria-label="Add To Wishlist">
+                <i class="fi fi-rs-heart"></i>
+            </a>
+
+            <a href="" class="action__btn" aria-label="Compare">
+                <i class="fi fi-rs-shuffle"></i>
+            </a>
+
+        </div>
+
+        <div class="product__badge light-green">Hot</div>
+    </div>
+
+    <div class="product__content">
+        <span class="product__category">
+            Clothing
+        </span>
+        <a href="details.html">
+            <h3 class="product__title">
+                Colorful Pattern Shirts
+            </h3>
+        </a>
+        <div class="product__rating">
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+        </div>
+        <div class="product__price flex">
+            <span class="new__price">$238.85</span>
+            <span class="old__price">$245.8</span>
+        </div>
+        <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+            <i class="fi fi-rs-shopping-bag-add"></i>
+        </a>
+    </div>
+        </div>
+
+        <!-- thired item -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p2.png" alt="" class="product__img default">
+
+                    <img src="images/p2.2.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-orange">Hot</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- four item -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p3.png" alt="" class="product__img default">
+
+                    <img src="images/p3.3.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-blue">Hot</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- five -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p4.png" alt="" class="product__img default">
+
+                    <img src="images/p4.4.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-pink">30%</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- six -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p5.png" alt="" class="product__img default">
+
+                    <img src="images/p5.5.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-pink">22%</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- seven -->
+   
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p6.png" alt="" class="product__img default">
+
+                    <img src="images/p6.6.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+            <!-- eight -->
+
+            <div class="product__item">
+                <div class="product__banner">
+                    <a href="details.html" class="product__images">
+                        <img src="images/p8.png" alt="" class="product__img default">
+
+                        <img src="images/p8.8.png" alt="" class="product__img hover">
+                    </a>
+                    <div class="product__action">
+                        <a href="" class="action__btn" aria-label="Quick View">
+                            <i class="fi fi-rs-eye"></i>
+                        </a>
+
+                        <a href="" class="action__btn" aria-label="Add To Wishlist">
+                            <i class="fi fi-rs-heart"></i>
+                        </a>
+
+                        <a href="" class="action__btn" aria-label="Compare">
+                            <i class="fi fi-rs-shuffle"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="product__content">
+                    <span class="product__category">
+                        Clothing
+                    </span>
+                    <a href="details.html">
+                        <h3 class="product__title">
+                            Colorful Pattern Shirts
+                        </h3>
+                    </a>
+                    <div class="product__rating">
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                        <span class="new__price">$238.85</span>
+                        <span class="old__price">$245.8</span>
+                    </div>
+                    <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                        <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                </div>
+            </div>
+
+                </div>
+
+            </div>
+
+           
+           
+           
+           
+            <!-- 2tab__item -->
+            <div class="tab__item" content id="popular">
+                <div class="products__container grid">
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="images/p9.png" alt="" class="product__img default">
+
+                                <img src="images/p9.9.png" alt="" class="product__img hover">
+                            </a>
+                            <div class="product__action">
+                                <a href="" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+
+                            </div>
+
+                            <div class="product__badge light-pink">Hot</div>
+                        </div>
+
+                        <div class="product__content">
+                            <span class="product__category">
+                                Clothing
+                            </span>
+                            <a href="details.html">
+                                <h3 class="product__title">
+                                    Colorful Pattern Shirts
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$238.85</span>
+                                <span class="old__price">$245.8</span>
+                            </div>
+                            <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+<!-- secound item -->
+
+        <div class="product__item">
+    <div class="product__banner">
+        <a href="details.html" class="product__images">
+            <img src="images/s1.png" alt="" class="product__img default">
+
+            <img src="images/s6.png" alt="" class="product__img hover">
+        </a>
+        <div class="product__action">
+            <a href="" class="action__btn" aria-label="Quick View">
+                <i class="fi fi-rs-eye"></i>
+            </a>
+
+            <a href="" class="action__btn" aria-label="Add To Wishlist">
+                <i class="fi fi-rs-heart"></i>
+            </a>
+
+            <a href="" class="action__btn" aria-label="Compare">
+                <i class="fi fi-rs-shuffle"></i>
+            </a>
+
+        </div>
+
+        <div class="product__badge light-green">Hot</div>
+    </div>
+
+    <div class="product__content">
+        <span class="product__category">
+            Clothing
+        </span>
+        <a href="details.html">
+            <h3 class="product__title">
+                Colorful Pattern Shirts
+            </h3>
+        </a>
+        <div class="product__rating">
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+        </div>
+        <div class="product__price flex">
+            <span class="new__price">$238.85</span>
+            <span class="old__price">$245.8</span>
+        </div>
+        <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+            <i class="fi fi-rs-shopping-bag-add"></i>
+        </a>
+    </div>
+        </div>
+
+        <!-- thired item -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p2.png" alt="" class="product__img default">
+
+                    <img src="images/p2.2.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-orange">Hot</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- four item -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/s8.png" alt="" class="product__img default">
+
+                    <img src="images/s5.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-blue">Hot</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- five -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p4.png" alt="" class="product__img default">
+
+                    <img src="images/p4.4.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-pink">30%</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- six -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/s2.png" alt="" class="product__img default">
+
+                    <img src="images/s6.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-pink">22%</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- seven -->
+   
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p6.png" alt="" class="product__img default">
+
+                    <img src="images/p6.6.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+            <!-- eight -->
+
+            <div class="product__item">
+                <div class="product__banner">
+                    <a href="details.html" class="product__images">
+                        <img src="images/p8.png" alt="" class="product__img default">
+
+                        <img src="images/p8.png" alt="" class="product__img hover">
+                    </a>
+                    <div class="product__action">
+                        <a href="" class="action__btn" aria-label="Quick View">
+                            <i class="fi fi-rs-eye"></i>
+                        </a>
+
+                        <a href="" class="action__btn" aria-label="Add To Wishlist">
+                            <i class="fi fi-rs-heart"></i>
+                        </a>
+
+                        <a href="" class="action__btn" aria-label="Compare">
+                            <i class="fi fi-rs-shuffle"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="product__content">
+                    <span class="product__category">
+                        Clothing
+                    </span>
+                    <a href="details.html">
+                        <h3 class="product__title">
+                            Colorful Pattern Shirts
+                        </h3>
+                    </a>
+                    <div class="product__rating">
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                        <span class="new__price">$238.85</span>
+                        <span class="old__price">$245.8</span>
+                    </div>
+                    <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                        <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                </div>
+            </div>
+
+                </div>
+
+            </div>
+            
+            <!-- 3tab__item -->
+            <div class="tab__item" content id="new-added">
+                <div class="products__container grid">
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="images/s3.png" alt="" class="product__img default">
+
+                                <img src="images/s1.png" alt="" class="product__img hover">
+                            </a>
+                            <div class="product__action">
+                                <a href="" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+
+                            </div>
+
+                            <div class="product__badge light-pink">Hot</div>
+                        </div>
+
+                        <div class="product__content">
+                            <span class="product__category">
+                                Clothing
+                            </span>
+                            <a href="details.html">
+                                <h3 class="product__title">
+                                    Colorful Pattern Shirts
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$238.85</span>
+                                <span class="old__price">$245.8</span>
+                            </div>
+                            <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+<!-- secound item -->
+
+        <div class="product__item">
+    <div class="product__banner">
+        <a href="details.html" class="product__images">
+            <img src="images/p3.png" alt="" class="product__img default">
+
+            <img src="images/p3.3.png" alt="" class="product__img hover">
+        </a>
+        <div class="product__action">
+            <a href="" class="action__btn" aria-label="Quick View">
+                <i class="fi fi-rs-eye"></i>
+            </a>
+
+            <a href="" class="action__btn" aria-label="Add To Wishlist">
+                <i class="fi fi-rs-heart"></i>
+            </a>
+
+            <a href="" class="action__btn" aria-label="Compare">
+                <i class="fi fi-rs-shuffle"></i>
+            </a>
+
+        </div>
+
+        <div class="product__badge light-green">Hot</div>
+    </div>
+
+    <div class="product__content">
+        <span class="product__category">
+            Clothing
+        </span>
+        <a href="details.html">
+            <h3 class="product__title">
+                Colorful Pattern Shirts
+            </h3>
+        </a>
+        <div class="product__rating">
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+            <i class="fi fi-rs-star"></i>
+        </div>
+        <div class="product__price flex">
+            <span class="new__price">$238.85</span>
+            <span class="old__price">$245.8</span>
+        </div>
+        <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+            <i class="fi fi-rs-shopping-bag-add"></i>
+        </a>
+    </div>
+        </div>
+
+        <!-- thired item -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p2.png" alt="" class="product__img default">
+
+                    <img src="images/p2.2.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-orange">Hot</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- four item -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p5.png" alt="" class="product__img default">
+
+                    <img src="images/p5.5.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-blue">Hot</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- five -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p4.png" alt="" class="product__img default">
+
+                    <img src="images/p4.4.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-pink">30%</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- six -->
+
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/p5.png" alt="" class="product__img default">
+
+                    <img src="images/p5.5.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-pink">22%</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- seven -->
+   
+        <div class="product__item">
+            <div class="product__banner">
+                <a href="details.html" class="product__images">
+                    <img src="images/s3.png" alt="" class="product__img default">
+
+                    <img src="images/p6.6.png" alt="" class="product__img hover">
+                </a>
+                <div class="product__action">
+                    <a href="" class="action__btn" aria-label="Quick View">
+                        <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="" class="action__btn" aria-label="Compare">
+                        <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                </div>
+
+                <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+                <span class="product__category">
+                    Clothing
+                </span>
+                <a href="details.html">
+                    <h3 class="product__title">
+                        Colorful Pattern Shirts
+                    </h3>
+                </a>
+                <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+            </div>
+        </div>
+
+            <!-- eight -->
+
+            <div class="product__item">
+                <div class="product__banner">
+                    <a href="details.html" class="product__images">
+                        <img src="images/p3.png" alt="" class="product__img default">
+
+                        <img src="images/p3.3.png" alt="" class="product__img hover">
+                    </a>
+                    <div class="product__action">
+                        <a href="" class="action__btn" aria-label="Quick View">
+                            <i class="fi fi-rs-eye"></i>
+                        </a>
+
+                        <a href="" class="action__btn" aria-label="Add To Wishlist">
+                            <i class="fi fi-rs-heart"></i>
+                        </a>
+
+                        <a href="" class="action__btn" aria-label="Compare">
+                            <i class="fi fi-rs-shuffle"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="product__content">
+                    <span class="product__category">
+                        Clothing
+                    </span>
+                    <a href="details.html">
+                        <h3 class="product__title">
+                            Colorful Pattern Shirts
+                        </h3>
+                    </a>
+                    <div class="product__rating">
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                        <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                        <span class="new__price">$238.85</span>
+                        <span class="old__price">$245.8</span>
+                    </div>
+                    <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                        <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                </div>
+            </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- deals Section  -->
+
+    <section class="deals section">
+            <div class="deals__container container grid">
+                <!-- first deals -->
+                <div class="deals__item">
+                        <div class="deals__group">
+                            <h3 class="deals__brand">Deal of the Day</h3>
+                            <span class="deals__category">Limited quantities.</span>
+                        </div>
+                        <h4 class="deals__title">Summer Collection New Morden Design</h4>
+
+                        <div class="deals__price flex">
+                            <span class="new__price ">$139.00</span>
+                            <span class="old__price ">$160.99</span>
+                        </div>
+
+                        <div class="deals__group">
+                            <p class="deals__countdown-text">Hurry Up! Offer End In:</p>
+
+                            <div class="countdown">
+                                <div class="countdown__amount">
+                                    <p class="countdown__period">02</p>
+                                    <span class="unit">Days</span>
+                                </div>
+
+                                <div class="countdown__amount">
+                                    <p class="countdown__period">22</p>
+                                    <span class="unit">Hours</span>
+                                </div>
+
+                                <div class="countdown__amount">
+                                    <p class="countdown__period">57</p>
+                                    <span class="unit">Mins</span>
+                                </div>
+
+                                <div class="countdown__amount">
+                                    <p class="countdown__period">24</p>
+                                    <span class="unit">Sec</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="deals__btn">
+                            <a href="details.html" class="btn btn--md">Shop Now</a>
+                        </div>
+                </div>
+
+                <!-- secound Deals -->
+
+                <div class="deals__item">
+                    <div class="deals__group">
+                        <h3 class="deals__brand">Women Clothing</h3>
+                        <span class="deals__category">Limited quantities.</span>
+                    </div>
+                    <h4 class="deals__title">Try something new on vacation.</h4>
+
+                    <div class="deals__price flex">
+                        <span class="new__price ">$139.00</span>
+                        <span class="old__price ">$160.99</span>
+                    </div>
+
+                    <div class="deals__group">
+                        <p class="deals__countdown-text">Hurry Up! Offer End In:</p>
+
+                        <div class="countdown">
+                            <div class="countdown__amount">
+                                <p class="countdown__period">02</p>
+                                <span class="unit">Days</span>
+                            </div>
+
+                            <div class="countdown__amount">
+                                <p class="countdown__period">22</p>
+                                <span class="unit">Hours</span>
+                            </div>
+
+                            <div class="countdown__amount">
+                                <p class="countdown__period">57</p>
+                                <span class="unit">Mins</span>
+                            </div>
+
+                            <div class="countdown__amount">
+                                <p class="countdown__period">24</p>
+                                <span class="unit">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="deals__btn">
+                        <a href="details.html" class="btn btn--md">Shop Now</a>
+                    </div>
+            </div>
+
+            </div>
+    </section>
+
+    <!-- new araival section -->
+     <section class="new__arrivals container section">
+        <h3 class="section__title">
+            <span>New</span> Arrivals
+        </h3>
+        <div class="new__container swiper">
+
+            <div class="angle">
+                <i class="fi fi-rs-angle-small-right"></i>
+                <i class="fi fi-rs-angle-small-left"></i>
+                <!-- <i class="fi fi-rs-angle-small-right"></i> -->
+            </div>
+            <div class="swiper-wrapper">
+                                    <!-- first -->
+                                    <div class="product__item swiper-slide">
+                                        <div class="product__banner">
+                                            <a href="details.html" class="product__images">
+                                                <img src="images/s-1.png" alt="" class="product__img default">
+                
+                                                <img src="images/s1.png" alt="" class="product__img hover">
+                                            </a>
+                                            <div class="product__action">
+                                                <a href="" class="action__btn" aria-label="Quick View">
+                                                    <i class="fi fi-rs-eye"></i>
+                                                </a>
+                
+                                                <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                                    <i class="fi fi-rs-heart"></i>
+                                                </a>
+                
+                                                <a href="" class="action__btn" aria-label="Compare">
+                                                    <i class="fi fi-rs-shuffle"></i>
+                                                </a>
+                
+                                            </div>
+                
+                                            <div class="product__badge light-pink">Hot</div>
+                                        </div>
+                
+                                        <div class="product__content">
+                                            <span class="product__category">
+                                                Clothing
+                                            </span>
+                                            <a href="details.html">
+                                                <h3 class="product__title">
+                                                    Colorful Pattern Shirts
+                                                </h3>
+                                            </a>
+                                            <div class="product__rating">
+                                                <i class="fi fi-rs-star"></i>
+                                                <i class="fi fi-rs-star"></i>
+                                                <i class="fi fi-rs-star"></i>
+                                                <i class="fi fi-rs-star"></i>
+                                                <i class="fi fi-rs-star"></i>
+                                            </div>
+                                            <div class="product__price flex">
+                                                <span class="new__price">$238.85</span>
+                                                <span class="old__price">$245.8</span>
+                                            </div>
+                                            <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                                <i class="fi fi-rs-shopping-bag-add"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                <!-- secound item -->
+                
+                        <div class="product__item swiper-slide">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="images/p1.1.png" alt="" class="product__img default">
+                
+                            <img src="images/p1.png" alt="" class="product__img hover">
+                        </a>
+                        <div class="product__action">
+                            <a href="" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+                
+                            <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+                
+                            <a href="" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                
+                        </div>
+                
+                        <div class="product__badge light-green">Hot</div>
+                    </div>
+                
+                    <div class="product__content">
+                        <span class="product__category">
+                            Clothing
+                        </span>
+                        <a href="details.html">
+                            <h3 class="product__title">
+                                Colorful Pattern Shirts
+                            </h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$238.85</span>
+                            <span class="old__price">$245.8</span>
+                        </div>
+                        <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                        </div>
+                
+                        <!-- thired item -->
+                
+                        <div class="product__item swiper-slide">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="images/p2.png" alt="" class="product__img default">
+                
+                                    <img src="images/p2.2.png" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__action">
+                                    <a href="" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                
+                                </div>
+                
+                                <div class="product__badge light-orange">Hot</div>
+                            </div>
+                
+                            <div class="product__content">
+                                <span class="product__category">
+                                    Clothing
+                                </span>
+                                <a href="details.html">
+                                    <h3 class="product__title">
+                                        Colorful Pattern Shirts
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$238.85</span>
+                                    <span class="old__price">$245.8</span>
+                                </div>
+                                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                
+                        <!-- four item -->
+                
+                        <div class="product__item swiper-slide">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="images/p3.png" alt="" class="product__img default">
+                
+                                    <img src="images/p3.3.png" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__action">
+                                    <a href="" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                
+                                </div>
+                
+                                <div class="product__badge light-blue">Hot</div>
+                            </div>
+                
+                            <div class="product__content">
+                                <span class="product__category">
+                                    Clothing
+                                </span>
+                                <a href="details.html">
+                                    <h3 class="product__title">
+                                        Colorful Pattern Shirts
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$238.85</span>
+                                    <span class="old__price">$245.8</span>
+                                </div>
+                                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                
+                        <!-- five -->
+                
+                        <div class="product__item swiper-slide">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="images/p4.png" alt="" class="product__img default">
+                
+                                    <img src="images/p4.4.png" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__action">
+                                    <a href="" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                
+                                </div>
+                
+                                <div class="product__badge light-pink">30%</div>
+                            </div>
+                
+                            <div class="product__content">
+                                <span class="product__category">
+                                    Clothing
+                                </span>
+                                <a href="details.html">
+                                    <h3 class="product__title">
+                                        Colorful Pattern Shirts
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$238.85</span>
+                                    <span class="old__price">$245.8</span>
+                                </div>
+                                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                
+                        <!-- six -->
+                
+                        <div class="product__item swiper-slide">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="images/p5.png" alt="" class="product__img default">
+                
+                                    <img src="images/p5.5.png" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__action">
+                                    <a href="" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                
+                                </div>
+                
+                                <div class="product__badge light-pink">22%</div>
+                            </div>
+                
+                            <div class="product__content">
+                                <span class="product__category">
+                                    Clothing
+                                </span>
+                                <a href="details.html">
+                                    <h3 class="product__title">
+                                        Colorful Pattern Shirts
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$238.85</span>
+                                    <span class="old__price">$245.8</span>
+                                </div>
+                                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                
+                        <!-- seven -->
+                   
+                        <div class="product__item swiper-slide">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="images/p6.png" alt="" class="product__img default">
+                
+                                    <img src="images/p6.6.png" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__action">
+                                    <a href="" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                
+                                    <a href="" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                
+                                </div>
+                
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+                
+                            <div class="product__content">
+                                <span class="product__category">
+                                    Clothing
+                                </span>
+                                <a href="details.html">
+                                    <h3 class="product__title">
+                                        Colorful Pattern Shirts
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$238.85</span>
+                                    <span class="old__price">$245.8</span>
+                                </div>
+                                <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                
+                            <!-- eight -->
+                
+                            <div class="product__item swiper-slide">
+                                <div class="product__banner">
+                                    <a href="details.html" class="product__images">
+                                        <img src="images/p8.png" alt="" class="product__img default">
+                
+                                        <img src="images/p8.8.png" alt="" class="product__img hover">
+                                    </a>
+                                    <div class="product__action">
+                                        <a href="" class="action__btn" aria-label="Quick View">
+                                            <i class="fi fi-rs-eye"></i>
+                                        </a>
+                
+                                        <a href="" class="action__btn" aria-label="Add To Wishlist">
+                                            <i class="fi fi-rs-heart"></i>
+                                        </a>
+                
+                                        <a href="" class="action__btn" aria-label="Compare">
+                                            <i class="fi fi-rs-shuffle"></i>
+                                        </a>
+                
+                                    </div>
+                
+                                </div>
+                
+                                <div class="product__content">
+                                    <span class="product__category">
+                                        Clothing
+                                    </span>
+                                    <a href="details.html">
+                                        <h3 class="product__title">
+                                            Colorful Pattern Shirts
+                                        </h3>
+                                    </a>
+                                    <div class="product__rating">
+                                        <i class="fi fi-rs-star"></i>
+                                        <i class="fi fi-rs-star"></i>
+                                        <i class="fi fi-rs-star"></i>
+                                        <i class="fi fi-rs-star"></i>
+                                        <i class="fi fi-rs-star"></i>
+                                    </div>
+                                    <div class="product__price flex">
+                                        <span class="new__price">$238.85</span>
+                                        <span class="old__price">$245.8</span>
+                                    </div>
+                                    <a href="" class="action__btn cart__btn" aria-label="Add To Cart">
+                                        <i class="fi fi-rs-shopping-bag-add"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+              
+            </div>
+
+        </div>
+
+     </section>
+
+     <!-- showcase -->
+
+     <section class="showcase section">
+        <div class="showcase__container container grid">
+            <!-- all showcase 1 -->
+            <div class="showcase__wrapper">
+                <h3 class="section__title">Hot Releases</h3>
+                <!-- showcase item 1 -->
+                <div class="showcase__item">
+                    <a href="details.html" class="showcase__img-box">
+                        <img src="images/s3.png" alt="" class="showcase__img">
+                    </a>
+                    <div class="showcase__content">
+                        <a href="details.html">
+                            <h4 class="showcase__title">Floral Print Casual Cotton Dress</h4>
+                        </a>
+
+                        <div class="showcase__price flex">
+                            <span class="new__price">$238.85</span>
+                            <span class="old__price">$245.8</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- showcase 2 -->
+                <div class="showcase__item">
+                    <a href="details.html" class="showcase__img-box">
+                        <img src="images/s1.png" alt="" class="showcase__img">
+                    </a>
+                    <div class="showcase__content">
+                        <a href="details.html">
+                            <h4 class="showcase__title">Ruffled Solid Long Sleeve Blouse</h4>
+                        </a>
+
+                        <div class="showcase__price flex">
+                            <span class="new__price">$238.85</span>
+                            <span class="old__price">$245.8</span>
+                        </div>
+                    </div>
+
+                </div>
+          <!-- showcase 3 -->
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+                <img src="images/s2.png" alt="" class="showcase__img">
+            </a>
+            <div class="showcase__content">
+                <a href="details.html">
+                    <h4 class="showcase__title">Multi-Color Print V-neck T-shirt</h4>
+                </a>
+
+                <div class="showcase__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+            </div>
+
+        </div>
+
+  
+      
+
+
+
+            </div>
+
+            <!-- all showcase 2 -->
+            <div class="showcase__wrapper">
+                <h3 class="section__title">Deals & Outlet</h3>
+                <!-- showcase item 1 -->
+                <div class="showcase__item">
+                    <a href="details.html" class="showcase__img-box">
+                        <img src="images/s8.png" alt="" class="showcase__img">
+                    </a>
+                    <div class="showcase__content">
+                        <a href="details.html">
+                            <h4 class="showcase__title">Fish Print Patched T-shirt</h4>
+                        </a>
+
+                        <div class="showcase__price flex">
+                            <span class="new__price">$238.85</span>
+                            <span class="old__price">$245.8</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- showcase 2 -->
+                <div class="showcase__item">
+                    <a href="details.html" class="showcase__img-box">
+                        <img src="images/s6.png" alt="" class="showcase__img">
+                    </a>
+                    <div class="showcase__content">
+                        <a href="details.html">
+                            <h4 class="showcase__title">Vintage Floral Print Dress</h4>
+                        </a>
+
+                        <div class="showcase__price flex">
+                            <span class="new__price">$238.85</span>
+                            <span class="old__price">$245.8</span>
+                        </div>
+                    </div>
+
+                </div>
+          <!-- showcase 3 -->
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+                <img src="images/s5.png" alt="" class="showcase__img">
+            </a>
+            <div class="showcase__content">
+                <a href="details.html">
+                    <h4 class="showcase__title">Multi-Color Stripe Circle T-shirt</h4>
+                </a>
+
+                <div class="showcase__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+            </div>
+
+        </div>
+
+  
+      
+
+
+
+            </div>
+
+
+            <!-- all showcase 3 -->
+            <div class="showcase__wrapper">
+                <h3 class="section__title">Top Selling</h3>
+                <!-- showcase item 1 -->
+                <div class="showcase__item">
+                    <a href="details.html" class="showcase__img-box">
+                        <img src="images/p4.png" alt="" class="showcase__img">
+                    </a>
+                    <div class="showcase__content">
+                        <a href="details.html">
+                            <h4 class="showcase__title">Geometic Printed Long Sleeve Blouse</h4>
+                        </a>
+
+                        <div class="showcase__price flex">
+                            <span class="new__price">$238.85</span>
+                            <span class="old__price">$245.8</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- showcase 2 -->
+                <div class="showcase__item">
+                    <a href="details.html" class="showcase__img-box">
+                        <img src="images/next1.png" alt="" class="showcase__img">
+                    </a>
+                    <div class="showcase__content">
+                        <a href="details.html">
+                            <h4 class="showcase__title">Print Patchwork Maxi Dress</h4>
+                        </a>
+
+                        <div class="showcase__price flex">
+                            <span class="new__price">$238.85</span>
+                            <span class="old__price">$245.8</span>
+                        </div>
+                    </div>
+
+                </div>
+          <!-- showcase 3 -->
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+                <img src="images/p3.3.png" alt="" class="showcase__img">
+            </a>
+            <div class="showcase__content">
+                <a href="details.html">
+                    <h4 class="showcase__title">Daisy Floral Print Straps Jumpsuit</h4>
+                </a>
+
+                <div class="showcase__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+            </div>
+
+        </div>
+
+  
+      
+
+
+
+            </div>
+
+             <!-- all showcase 4 -->
+             <div class="showcase__wrapper">
+                <h3 class="section__title">Trendy</h3>
+                <!-- showcase item 1 -->
+                <div class="showcase__item">
+                    <a href="details.html" class="showcase__img-box">
+                        <img src="images/p2.png" alt="" class="showcase__img">
+                    </a>
+                    <div class="showcase__content">
+                        <a href="details.html">
+                            <h4 class="showcase__title">Floral Print Casual Cotto</h4>
+                        </a>
+
+                        <div class="showcase__price flex">
+                            <span class="new__price">$238.85</span>
+                            <span class="old__price">$245.8</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- showcase 2 -->
+                <div class="showcase__item">
+                    <a href="details.html" class="showcase__img-box">
+                        <img src="images/s2.png" alt="" class="showcase__img">
+                    </a>
+                    <div class="showcase__content">
+                        <a href="details.html">
+                            <h4 class="showcase__title">Ruffled Solid Long Sleev</h4>
+                        </a>
+
+                        <div class="showcase__price flex">
+                            <span class="new__price">$238.85</span>
+                            <span class="old__price">$245.8</span>
+                        </div>
+                    </div>
+
+                </div>
+          <!-- showcase 3 -->
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+                <img src="images/p8.png" alt="" class="showcase__img">
+            </a>
+            <div class="showcase__content">
+                <a href="details.html">
+                    <h4 class="showcase__title">Multi-Color Print V- neck</h4> T-shirt
+                </a>
+
+                <div class="showcase__price flex">
+                    <span class="new__price">$238.85</span>
+                    <span class="old__price">$245.8</span>
+                </div>
+            </div>
+
+        </div>
+
+  
+      
+
+
+
+            </div>
+        </div>
+     </section>
+
+
+
+     
+
+      <footer class="footer">
+        <div class="footer-div">
+            
+            <h4> Sign up to Newsletter</h4>
+
+            <p>...and receive $25 coupon for first shopping.</p>
+            <div class="footer__input">
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+            </div>
+ 
+        </div>
+
+      </footer>
+
+
+    <!-- swiper script Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
